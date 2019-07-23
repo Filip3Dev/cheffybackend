@@ -1,0 +1,29 @@
+{
+  "name": "NodeSequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.10.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "nodemailer": "^5.1.1",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "sendgrid": "^2.0.0"
+  }
+}
