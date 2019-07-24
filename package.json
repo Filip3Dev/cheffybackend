@@ -15,7 +15,8 @@
     "express": "^4.17.1",
     "http-status-codes": "^1.3.2",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.10.2"
+    "sequelize": "^5.10.2",
+    "twilio": "^3.33.2"
   },
   "devDependencies": {
     "sequelize-cli": "^5.5.0",
