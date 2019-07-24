@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { User, Food } = require('./app/models');
+const { User, Food } = require('../app/models');
 
 const app = express();
 
@@ -17,4 +17,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.listen(3000);
+const user = require('../app/routes/user');
+app.use('/user', user);
+
+module.exports = app;
